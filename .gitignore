@@ -1,0 +1,40 @@
+# game
+run/
+
+# assets
+docs/
+icons/
+models/
+sounds/
+sprites/
+
+# gradle
+.gradle/
+build/
+
+# eclipse
+*.bak
+*.launch
+*.swp
+*.tmp
+*~.nib
+.loadpath
+.metadata
+.recommenders
+.settings/
+bin/
+local.properties
+tmp/
+
+# idea
+*.iml
+*.ipr
+.idea/
+out/
+
+# vscode
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.vscode/*

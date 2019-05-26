@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "snowfall",
+  "name": "Snowfall",
+  "version": "$version",
+  "requires": {
+    "fabricloader": ">=0.4.1 <0.5.0"
+  },
+  "mixins": [
+    "mixins/snowfall/mixins.json"
+  ],
+  "authors": [
+    {
+      "name": "InsomniaKitten",
+      "contact": {
+        "homepage": "https://git.io/vXoUn"
+      }
+    }
+  ]
+}
