@@ -1,16 +1,17 @@
 package io.github.sleeplessdevelopment.snowfall;
 
-import com.google.common.primitives.Ints;
 import net.minecraft.block.SnowBlock;
 
+import java.util.Collections;
+
 public final class SnowLayers {
-  private static final int[] LAYERS = Ints.toArray(SnowBlock.LAYERS.getValues());
+  private static final int MAX_LAYER = Collections.max(SnowBlock.LAYERS.getValues());
 
   private SnowLayers() {
     throw new UnsupportedOperationException();
   }
 
   public static boolean contains(final int layer) {
-    return Ints.contains(LAYERS, layer);
+    return 0 <= layer && layer <= MAX_LAYER;
   }
 }
